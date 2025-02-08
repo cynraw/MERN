@@ -1,2 +1,2 @@
 # MERN
-🔐 MongoDB, 🏢 Express.js, 🔦 React, and 🤖 Node.js
+Everything 🔐 MongoDB, 🏢 Express.js, 🔦 React, and 🤖 Node.js
