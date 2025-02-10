@@ -44,5 +44,11 @@ MongoDB's flexibility and BSON format make it an excellent choice for applicatio
 ## Data Modeling
 Process of structuring data in a way that optimizes storage, retrieval, and scalability. Since MongoDB is schema-less, developers have the flexibility to design the database structure based on application needs.
 
+MongoDB provides two main approaches for structuring data:
+
+Embedding (Denormalization)
+
+Referencing (Normalization)
+
 
 
