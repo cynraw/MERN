@@ -46,9 +46,9 @@ Process of structuring data in a way that optimizes storage, retrieval, and scal
 
 MongoDB provides two main approaches for structuring data:
 
-Embedding (Denormalization)
+Embedding (Denormalization) - storing related data within a single document. This approach provides a more hierarchical and nested data structure. leads to Faster read operations since all related data is in a single document, Atomic Operations- All related data is stored together, making updates atomic and consistent. Although can result in large documents.
 
-Referencing (Normalization)
+Referencing (Normalization) - storing related data in separate documents and linking them through references. This approach keeps data more modular and relational. leads Easier to manage and scale since data is stored separately, Reduced Redundancy- Avoids duplication of data, especially if the same referenced data is used in multiple documents. Although leads to Slower read operations due to the need for multiple queries to fetch related data, and Requires handling relationships between documents, which can be more complex to manage.
 
 
 
