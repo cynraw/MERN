@@ -41,4 +41,8 @@ In this example, the document represents a person named Alice with fields for he
 
 MongoDB's flexibility and BSON format make it an excellent choice for applications that need to handle complex, hierarchical data structures and require high performance.
 
+## Data Modeling
+Process of structuring data in a way that optimizes storage, retrieval, and scalability. Since MongoDB is schema-less, developers have the flexibility to design the database structure based on application needs.
+
+
 
