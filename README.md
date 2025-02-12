@@ -1,7 +1,7 @@
 # MERN
 Everything 🔐 MongoDB, 🏢 Express.js, 🔦 React, and 🤖 Node.js
 
-## MongoDB
+# MongoDB
 NoSQL database that stores data in the form of documents rather than tables, making it more flexible and scalable than traditional SQL-based relational databases. Unlike relational databases that use rows and columns, MongoDB organizes data into collections of documents that use BSON (Binary JSON) format.
 
 ### Key Characteristics of MongoDB:
@@ -41,7 +41,7 @@ In this example, the document represents a person named Alice with fields for he
 
 MongoDB's flexibility and BSON format make it an excellent choice for applications that need to handle complex, hierarchical data structures and require high performance.
 
-## Data Modeling
+### Data Modeling
 Process of structuring data in a way that optimizes storage, retrieval, and scalability. Since MongoDB is schema-less, developers have the flexibility to design the database structure based on application needs.
 
 MongoDB provides two main approaches for structuring data:
@@ -49,6 +49,8 @@ MongoDB provides two main approaches for structuring data:
 Embedding (Denormalization) - storing related data within a single document. This approach provides a more hierarchical and nested data structure. leads to Faster read operations since all related data is in a single document, Atomic Operations- All related data is stored together, making updates atomic and consistent. Although can result in large documents.
 
 Referencing (Normalization) - storing related data in separate documents and linking them through references. This approach keeps data more modular and relational. leads Easier to manage and scale since data is stored separately, Reduced Redundancy- Avoids duplication of data, especially if the same referenced data is used in multiple documents. Although leads to Slower read operations due to the need for multiple queries to fetch related data, and Requires handling relationships between documents, which can be more complex to manage.
+
+### Aggregation and Advanced Queries
 
 
 
