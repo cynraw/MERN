@@ -54,4 +54,23 @@ Referencing (Normalization) - storing related data in separate documents and lin
 Aggregation is the process of transforming and analyzing data by applying multiple operations in a pipeline. Instead of retrieving raw data, aggregation allows for complex computations such as summation, filtering, and grouping.
 
 
+The aggregation framework processes data through a series of pipeline stages, each stage performing a specific operation. Here are some of the most commonly used stages:
+
+$match: Filters documents based on a condition.
+
+$group: Groups documents by a specified field and performs aggregations.
+
+$project: Selects and reshapes fields to include in the output documents.
+
+$sort: Sorts documents based on a specified field.
+
+$limit: Limits the number of documents passed to the next stage.
+
+$skip: Skips a specified number of documents.
+
+$unwind: Deconstructs an array field from the input documents.
+
+$lookup: Performs a left outer join with another collection.
+
+
 
