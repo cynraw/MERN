@@ -40,7 +40,16 @@ Example:
 In this example, the document represents a person named Alice with fields for her name, age, address (embedded document), and hobbies (array of strings). This document would be stored in a collection, such as "users," within a MongoDB database.
 
 MongoDB's flexibility and BSON format make it an excellent choice for applications that need to handle complex, hierarchical data structures and require high performance.
+### Create Operations
+Create or insert operations add new documents to a collection. If the collection does not currently exist, insert operations will create the collection.
 
+MongoDB provides the following methods to insert documents into a collection:
+
+db.collection.insertOne()
+
+db.collection.insertMany()
+
+In MongoDB, insert operations target a single collection. All write operations in MongoDB are atomic on the level of a single document.
 ### Data Modeling
 Process of structuring data in a way that optimizes storage, retrieval, and scalability. Since MongoDB is schema-less, developers have the flexibility to design the database structure based on application needs.
 
