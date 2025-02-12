@@ -51,6 +51,7 @@ Embedding (Denormalization) - storing related data within a single document. Thi
 Referencing (Normalization) - storing related data in separate documents and linking them through references. This approach keeps data more modular and relational. leads Easier to manage and scale since data is stored separately, Reduced Redundancy- Avoids duplication of data, especially if the same referenced data is used in multiple documents. Although leads to Slower read operations due to the need for multiple queries to fetch related data, and Requires handling relationships between documents, which can be more complex to manage.
 
 ### Aggregation and Advanced Queries
+Aggregation is the process of transforming and analyzing data by applying multiple operations in a pipeline. Instead of retrieving raw data, aggregation allows for complex computations such as summation, filtering, and grouping.
 
 
 
