@@ -111,6 +111,7 @@ $unwind: Deconstructs an array field from the input documents.
 $lookup: Performs a left outer join with another collection.
 
 # ExpressJs
+Is a framework of NodeJs, and NodeJs is a javascript run time environment but nodejs does not support request handling functions, HTTP methods or serving files so this is where ExpressJs comes in.
 
 
 
