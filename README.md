@@ -112,6 +112,21 @@ $lookup: Performs a left outer join with another collection.
 
 # ExpressJs
 Is a framework of NodeJs, and NodeJs is a javascript run time environment but nodejs does not support request handling functions, HTTP methods or serving files so this is where ExpressJs comes in.
+ExpressJs is a light weight framework that gives node js functionality and makes node js easier.
+Designed to build apis, and web apllication and cross-platform mobile apps
+Unopinionated
+Used as server side scripting language.
+
+## Http request type
+GET - used to request data from the server but mainly this method is used to read data.
+PATCH - used to update the data or change/replace it.
+POST - used to create new or to edit already existing data.
+DELETE - used to delete the data completely from the server.
+
+## REST API
+Representational State Transfer - is an architecture used to create web services.
+Application programming Interface(API) - is a code which allows two sw programs to communicate with each other.
+REST API - is a sw that allows two applications to communicate with each other with the help of the internet and other devices. It is a standard way to send and receive data for web services. Is flexible and can handle various types of call.
 
 
 
