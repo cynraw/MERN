@@ -118,11 +118,11 @@ Unopinionated
 Used as server side scripting language.
 
 ## Http request type
-GET - used to request data from the server but mainly this method is used to read data.
+GET - used to request data from the server but mainly this method is used to read data./Requests data from the server (e.g., loading a webpage).
 
-PATCH - used to update the data or change/replace it.
+PUT - used to update the data or change/replace it.
 
-POST - used to create new or to edit already existing data.
+POST - used to create new or to edit already existing data./ Sends data to the server (e.g., submitting a form).
 
 DELETE - used to delete the data completely from the server.
 
