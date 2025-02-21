@@ -119,8 +119,11 @@ Used as server side scripting language.
 
 ## Http request type
 GET - used to request data from the server but mainly this method is used to read data.
+
 PATCH - used to update the data or change/replace it.
+
 POST - used to create new or to edit already existing data.
+
 DELETE - used to delete the data completely from the server.
 
 ## REST API
