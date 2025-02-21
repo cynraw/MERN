@@ -126,6 +126,9 @@ POST - used to create new or to edit already existing data.
 
 DELETE - used to delete the data completely from the server.
 
+## Understanding the Request-Response Cycle
+
+
 ## REST API
 Representational State Transfer - is an architecture used to create web services.
 Application programming Interface(API) - is a code which allows two sw programs to communicate with each other.
