@@ -127,6 +127,13 @@ POST - used to create new or to edit already existing data.
 DELETE - used to delete the data completely from the server.
 
 ## Understanding the Request-Response Cycle
+When a client (browser or mobile app) sends a request to a server:
+
+The client makes an HTTP request (e.g., GET, POST).
+
+The server receives and processes the request.
+
+The server sends back a response (e.g., HTML, JSON, or errors).
 
 
 ## REST API
