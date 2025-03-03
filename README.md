@@ -159,6 +159,12 @@ PATH is a path on the server.
 HANDLER is the function executed when the route is matched.
 
 ## Serving static files in Express
+To serve static files such as images, CSS files, and JavaScript files, use the express.static built-in middleware function in Express.
+
+The function signature is:
+
+express.static(root, [options])
+
 
 
 
