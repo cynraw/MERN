@@ -171,6 +171,13 @@ For example, use the following code to serve images, CSS files, and JavaScript f
 
 app.use(express.static('public'))
 
+To use multiple static assets directories, call the express.static middleware function multiple times:
+
+- app.use(express.static('public'))
+- app.use(express.static('files'))
+
+Express looks up the files in the order in which you set the static directories with the express.static middleware function.
+
 
 
 
