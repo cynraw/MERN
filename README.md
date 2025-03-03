@@ -165,6 +165,12 @@ The function signature is:
 
 express.static(root, [options])
 
+The root argument specifies the root directory from which to serve static assets. 
+
+For example, use the following code to serve images, CSS files, and JavaScript files in a directory named public:
+
+app.use(express.static('public'))
+
 
 
 
