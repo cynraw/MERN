@@ -158,6 +158,8 @@ PATH is a path on the server.
 
 HANDLER is the function executed when the route is matched.
 
+## Serving static files in Express
+
 
 
 
