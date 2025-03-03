@@ -141,6 +141,18 @@ Representational State Transfer - is an architecture used to create web services
 Application programming Interface(API) - is a code which allows two sw programs to communicate with each other.
 REST API - is a sw that allows two applications to communicate with each other with the help of the internet and other devices. It is a standard way to send and receive data for web services. Is flexible and can handle various types of call.
 
+### Best Practices for Building REST APIs
+
+- Use Proper HTTP Methods - Ensure that GET, POST, PUT, and DELETE are used appropriately.
+
+- Use Meaningful Status Codes - Return 200 OK for success, 404 Not Found for missing resources, and 400 Bad Request for incorrect input.
+
+- Implement Request Validation - Validate incoming data before processing requests.
+
+- Use Middleware for Authentication & Security - Protect endpoints using authentication middleware like JWT.
+
+- Paginate Large Responses - If a database query returns large amounts of data, implement pagination.
+
 ## Basic routing
 Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
 Each route can have one or more handler functions, which are executed when the route is matched.
@@ -157,6 +169,16 @@ METHOD is an HTTP request method, in lowercase.
 PATH is a path on the server.
 
 HANDLER is the function executed when the route is matched.
+
+## Types of Routing in Express.js
+
+Static Routes - Predefined endpoints that always return the same response.
+
+Dynamic Routes - Endpoints that accept variables as part of the URL.
+
+RESTful Routes - Follow REST principles for API design, supporting CRUD operations.
+
+Middleware-based Routing - Uses middleware functions to execute logic before handling the request. 
 
 ## Serving static files in Express
 To serve static files such as images, CSS files, and JavaScript files, use the express.static built-in middleware function in Express.
