@@ -201,6 +201,18 @@ To use multiple static assets directories, call the express.static middleware fu
 Express looks up the files in the order in which you set the static directories with the express.static middleware function.
 
 
+## ExpressJs Assignment 
+Step 1: Create Routes
+
+Routes define how your application responds to client requests. We'll create two route files: userRoutes.js and productRoutes.js.
+
+Routes act as the entry points for your API. They map HTTP methods (GET, POST, PUT, DELETE) to specific controller functions.
+
+We'll use Express's Router to modularize routes for better organization.
+
+
+
+
 
 
 
