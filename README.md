@@ -220,7 +220,27 @@ We'll create a logger.js middleware to log the request method, URL, and timestam
 
 
 #### Step 3: Develop Controllers
+
 Controllers contain the business logic for handling requests and sending responses.
+
+Controllers are responsible for processing data and returning appropriate responses.
+
+We'll create separate controllers for users and products.
+
+#### Step 4: Environment Variables
+
+Use dotenv to manage environment variables like the server port.
+
+Environment variables keep sensitive or configurable data out of your codebase.
+
+Use the .env file to store variables like PORT.
+
+#### Step 5: Error Handling
+Implement a global error-handling middleware to catch and respond to errors.
+
+Errors can occur anywhere in your application.
+
+A global error handler ensures consistent error responses.
 
 
 
