@@ -219,6 +219,8 @@ Middleware is useful for tasks like logging, authentication, and error handling.
 We'll create a logger.js middleware to log the request method, URL, and timestamp.
 
 
+#### Step 3: Develop Controllers
+Controllers contain the business logic for handling requests and sending responses.
 
 
 
