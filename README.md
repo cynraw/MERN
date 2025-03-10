@@ -214,6 +214,9 @@ We'll use Express's Router to modularize routes for better organization.
 
 Middleware functions are used to process requests before they reach the route handlers. We'll create a custom middleware to log request details.
 
+Middleware is useful for tasks like logging, authentication, and error handling.
+
+We'll create a logger.js middleware to log the request method, URL, and timestamp.
 
 
 
