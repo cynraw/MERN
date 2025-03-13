@@ -255,6 +255,14 @@ A global error handler ensures consistent error responses.
 - JSX is stricter than HTML. You have to close tags like <br />.
 - Your component also can’t return multiple JSX tags. You have to wrap them into a shared parent, like a <div>...</div> or an empty <>...</> wrapper
 
+### Adding styles 
+- In React, you specify a CSS class with className. It works the same way as the HTML class attribute.
+- Then you write the CSS rules for it in a separate CSS file.
+
+### Displaying data 
+- JSX lets you put markup into JavaScript. Curly braces let you “escape back” into JavaScript so that you can embed some variable from your code and display it to the user.
+- For example, this will display user.name: return (h1 {user.name} /h1);
+
 
 
 
