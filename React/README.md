@@ -27,4 +27,6 @@
 
 ### Rendering lists
 - You will rely on JavaScript features like for loop and the array map() function to render lists of components.
-  
+
+### Responding to events 
+- You can respond to events by declaring event handler functions inside your components
