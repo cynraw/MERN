@@ -246,7 +246,10 @@ A global error handler ensures consistent error responses.
 # REACTJS
 - React apps are made out of components. A component is a piece of the UI (user interface) that has its own logic and appearance.
 - A component can be as small as a button, or as large as an entire page.
-  
+
+### Creating and nesting components
+- React components are javascript functions that return markup.
+- React component names must always start with a capital letter, while HTML tags must be lowercase.
 
 
 
