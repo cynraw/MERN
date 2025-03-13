@@ -262,7 +262,14 @@ A global error handler ensures consistent error responses.
 ### Displaying data 
 - JSX lets you put markup into JavaScript. Curly braces let you “escape back” into JavaScript so that you can embed some variable from your code and display it to the user.
 - For example, this will display user.name: return (h1 {user.name} /h1);
+- You can also “escape into JavaScript” from JSX attributes, but you have to use curly braces instead of quotes.
+- For example, className="avatar" passes the "avatar" string as the CSS class, but src={user.imageUrl} reads the JavaScript user.imageUrl variable value, and then passes that value as the src attribute
 
+### Conditional rendering 
+- In React, there is no special syntax for writing conditions.
+- Instead, you’ll use the same techniques as you use when writing regular JavaScript code. For example, you can use an if statement to conditionally include JSX:
+- let content; if (isLoggedIn) { content = <AdminPanel />; } else { content = <LoginForm />; } return ( <div> {content} </div> );
 
-
-
+### Rendering lists
+- You will rely on JavaScript features like for loop and the array map() function to render lists of components.
+  
