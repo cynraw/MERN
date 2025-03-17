@@ -49,4 +49,7 @@
 
 ## Vite
 - Vite is a modern frontend build tool and development server that is widely used for building React projects.
+- It is designed to provide a fast and efficient development experience.
+- Updates are applied instantly without refreshing the entire page, making development smoother.
+
   
