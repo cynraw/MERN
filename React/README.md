@@ -70,4 +70,7 @@
 - JavaScript Expressions: Embed dynamic data using curly braces {}. 
 - Single Parent Element: JSX must return one parent element. Use fragments (<>...</>) when needed. 
 
+### React Components
+- Functional Components: Functions that return JSX. They’re easy to read and test. 
+- Props: Inputs to components that allow data to flow from parent to child. 
   
