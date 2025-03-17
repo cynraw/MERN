@@ -61,7 +61,7 @@
 #### Vite project structure 
 - main.jsx boots up the React app and injects App.jsx into #root in index.html.
 - App.jsx defines the main UI structure and serves as the root component.
-- ndex.html → Creates an empty space (<div id="root"></div>) for the show.
+- index.html → Creates an empty space (<div id="root"></div>) for the show.
 - main.jsx → Calls React and tells it to place the App component into #root.
 - App.jsx → Displays the actual content (like a webpage with buttons, text, etc.).
 
