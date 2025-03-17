@@ -65,4 +65,9 @@
 - main.jsx → Calls React and tells it to place the App component into #root.
 - App.jsx → Displays the actual content (like a webpage with buttons, text, etc.).
 
+### Key Differences Between JSX and HTML
+- Attribute Names: Use className in JSX (instead of class in HTML) since class is a reserved word in JavaScript. 
+- JavaScript Expressions: Embed dynamic data using curly braces {}. 
+- Single Parent Element: JSX must return one parent element. Use fragments (<>...</>) when needed. 
+
   
