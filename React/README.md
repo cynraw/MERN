@@ -55,6 +55,6 @@
 ###  Setting Up Your Vite Project 
 - Check Node.js and npm Installation: node -v    # 🔍 Check Node.js version  npm -v     # 🔍 Check npm version
 - Create a New React App with Vite:  npm create vite@latest my-react-app --template react  # 🚀 Create your project cd my-react-app npm install  # 🔧 Install dependencies
-
+- Start the Development Server: npm run dev   # ▶️ Start Vite's dev server  Open http://localhost:5173/ in your browser to see your new React app live! 🌐
 
   
