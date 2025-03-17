@@ -46,4 +46,7 @@
 
 ### Sharing data between components
 - To make both MyButton components display the same count and update together, you need to move the state from the individual buttons “upwards” to the closest component containing all of them.
+
+## Vite
+- Vite is a modern frontend build tool and development server that is widely used for building React projects.
   
