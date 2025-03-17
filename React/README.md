@@ -52,7 +52,9 @@
 - It is designed to provide a fast and efficient development experience.
 - Updates are applied instantly without refreshing the entire page, making development smoother.
 
-###
+###  Setting Up Your Vite Project 
+- Check Node.js and npm Installation: node -v    # 🔍 Check Node.js version  npm -v     # 🔍 Check npm version
+- Create a New React App with Vite:  npm create vite@latest my-react-app --template react  # 🚀 Create your project cd my-react-app npm install  # 🔧 Install dependencies
 
 
   
