@@ -52,4 +52,25 @@
 - It is designed to provide a fast and efficient development experience.
 - Updates are applied instantly without refreshing the entire page, making development smoother.
 
+###  Setting Up Your Vite Project 
+- Check Node.js and npm Installation: node -v    # 🔍 Check Node.js version  npm -v     # 🔍 Check npm version
+- Create a New React App with Vite:  npm create vite@latest my-react-app --template react  # 🚀 Create your project cd my-react-app npm install  # 🔧 Install dependencies
+- Start the Development Server: npm run dev   # ▶️ Start Vite's dev server  Open http://localhost:5173/ in your browser to see your new React app live! 🌐
+- Explore the Project Structure:  index.html: The main HTML file.  src/main.jsx: The entry point where React hooks into the DOM. src/App.jsx: The root React component.
+
+#### Vite project structure 
+- main.jsx boots up the React app and injects App.jsx into #root in index.html.
+- App.jsx defines the main UI structure and serves as the root component.
+- index.html → Creates an empty space (<div id="root"></div>) for the show.
+- main.jsx → Calls React and tells it to place the App component into #root.
+- App.jsx → Displays the actual content (like a webpage with buttons, text, etc.).
+
+### Key Differences Between JSX and HTML
+- Attribute Names: Use className in JSX (instead of class in HTML) since class is a reserved word in JavaScript. 
+- JavaScript Expressions: Embed dynamic data using curly braces {}. 
+- Single Parent Element: JSX must return one parent element. Use fragments (<>...</>) when needed. 
+
+### React Components
+- Functional Components: Functions that return JSX. They’re easy to read and test. 
+- Props: Inputs to components that allow data to flow from parent to child. 
   
