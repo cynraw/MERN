@@ -74,4 +74,3 @@
 - Functional Components: Functions that return JSX. They’re easy to read and test. 
 - Props: Inputs to components that allow data to flow from parent to child.
 - 
-  
